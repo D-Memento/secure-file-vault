@@ -1,0 +1,50 @@
+Picked up JAVA_TOOL_OPTIONS: -Djava.io.tmpdir=<workspace>/tooling/tmp
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< ru.vault:secure-file-vault >---------------------
+[INFO] Building secure-file-vault 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ secure-file-vault ---
+[INFO] Deleting <workspace>/secure-file-vault/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ secure-file-vault ---
+[INFO] skip non existing resourceDirectory <workspace>/secure-file-vault/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ secure-file-vault ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 12 source files with javac [debug release 21] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ secure-file-vault ---
+[INFO] skip non existing resourceDirectory <workspace>/secure-file-vault/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ secure-file-vault ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug release 21] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ secure-file-vault ---
+[INFO] Surefire report directory: <workspace>/secure-file-vault/target/surefire-reports
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+Picked up JAVA_TOOL_OPTIONS: -Djava.io.tmpdir=<workspace>/tooling/tmp
+[INFO] Running ru.vault.VaultTest
+[INFO] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.17 s -- in ru.vault.VaultTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ secure-file-vault ---
+[INFO] Building jar: <workspace>/secure-file-vault/target/secure-file-vault-1.0.0.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  13.750 s
+[INFO] Finished at: 2026-10-23T00:24:18+05:30
+[INFO] ------------------------------------------------------------------------

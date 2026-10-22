@@ -1,0 +1,3 @@
+Oct 23, 2026 12:22:34 AM com.sun.javafx.application.PlatformImpl startup
+WARNING: Unsupported JavaFX configuration: classes were loaded from 'unnamed module @2f4d3709'
+UI SMOKE PASSED: setup, lock, wrong password, unlock, close

@@ -1,0 +1,25 @@
+secure-file-vault/
+  .gitignore
+  README.md
+  STRUCTURE.txt
+  VALIDATION.md
+  dist/secure-file-vault-1.0.0.jar
+  pom.xml
+  src/main/java/ru/vault/Main.java
+  src/main/java/ru/vault/crypto/FileEncryptionService.java
+  src/main/java/ru/vault/crypto/KeyDerivationService.java
+  src/main/java/ru/vault/crypto/VaultKeyService.java
+  src/main/java/ru/vault/database/DatabaseManager.java
+  src/main/java/ru/vault/database/StoredFileRepository.java
+  src/main/java/ru/vault/model/FileEntry.java
+  src/main/java/ru/vault/model/StoredFile.java
+  src/main/java/ru/vault/service/FileService.java
+  src/main/java/ru/vault/service/SafeFiles.java
+  src/main/java/ru/vault/service/VaultService.java
+  src/main/java/ru/vault/ui/VaultController.java
+  src/test/java/ru/vault/VaultTest.java
+  verification/README.md
+  verification/UiSmoke.java
+  verification/junit-summary.txt
+  verification/maven-verify.log
+  verification/ui-smoke.log
